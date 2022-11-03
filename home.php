@@ -107,7 +107,7 @@ if(isset($_SESSION['message'])) {
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="../_images/animal_neko.png" alt="First Slide">
+                <img src="_images/animal_neko.png" alt="First Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>aaa</h5>
                     <p>AAA</p>
@@ -115,7 +115,7 @@ if(isset($_SESSION['message'])) {
             </div>
 
             <div class="carousel-item ">
-                <img src="../_images/animal_inu.png" alt="Second Slide">
+                <img src="_images/animal_inu.png" alt="Second Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>bbb</h5>
                     <p>BBB</p>
@@ -123,7 +123,7 @@ if(isset($_SESSION['message'])) {
             </div>
 
             <div class="carousel-item ">
-                <img src="../_images/animal_kuma.png" alt="Third Slide">
+                <img src="_images/animal_kuma.png" alt="Third Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>ccc</h5>
                     <p>CCC</p>
@@ -131,7 +131,7 @@ if(isset($_SESSION['message'])) {
             </div>
             
             <div class="carousel-item ">
-                <img src="../_images/animal_panda.png" alt="Third Slide">
+                <img src="_images/animal_panda.png" alt="Third Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>ccc</h5>
                     <p>CCC</p>
