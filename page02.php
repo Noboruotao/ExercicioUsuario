@@ -20,9 +20,6 @@
                 <li class="nav-item">
                     <a href="home.php" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a href="change.php" class="nav-link">MudarDados</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Paginas</a>
                     <div class="dropdown-menu">
@@ -35,7 +32,7 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account</a>
                     <div class="dropdown-menu dropdown-menu-right">
-                        <a href="cadastro.php" class="dropdown-item">Cadastrar</a>
+                        <a href="change.php" class="dropdown-item">MudarDados</a>
                         <div class="dropdown-divider"></div>
                         <a href="#myModal"class="dropdown-item"data-toggle="modal">Logout</a>
                     </div>

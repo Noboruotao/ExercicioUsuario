@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <?php
 session_start();
+
 ?>
+
 <html lang="pt-br">
     <head>
         <title>logout</title>
@@ -9,9 +11,7 @@ session_start();
     </head>
     <body>
         <?php
-        
-        $_SESSION['message']= "Logout feito com sucesso<br>bye-bye ".$_SESSION['nome'];
-        session_unset();
+        session_destroy();
         header("location:login.php");
         ?>
     </body>

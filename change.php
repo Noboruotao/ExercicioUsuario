@@ -18,7 +18,7 @@ if(isset($_SESSION['message'])) {
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="jquery.mask.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
         
         <style>
@@ -61,9 +61,6 @@ if(isset($_SESSION['message'])) {
                 <li class="nav-item">
                     <a href="home.php" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a href="change.php" class="nav-link active">MudarDados</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Paginas</a>
                     <div class="dropdown-menu">
@@ -76,7 +73,7 @@ if(isset($_SESSION['message'])) {
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account</a>
                     <div class="dropdown-menu dropdown-menu-right">
-                        <a href="cadastro.php" class="dropdown-item">Cadastrar</a>
+                        <a href="change.php" class="dropdown-item">MudarDados</a>
                         <div class="dropdown-divider"></div>
                         <a href="#myModal"class="dropdown-item"data-toggle="modal">Logout</a>
                     </div>

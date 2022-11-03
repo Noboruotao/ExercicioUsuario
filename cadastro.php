@@ -29,7 +29,7 @@ if(isset($_SESSION['message'])) {
         </style>
        
        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-      <script src="jquery.mask.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
 
@@ -50,41 +50,7 @@ if(isset($_SESSION['message'])) {
         ?>
         
 
-<div >
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">ExercicioUsuario</a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="nav-item">
-                    <a href="home.php" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="change.php" class="nav-link ">MudarDados</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Paginas</a>
-                    <div class="dropdown-menu">
-                        <a href="page01.php" class="dropdown-item">Page01</a>
-                        <a href="page02.php" class="dropdown-item">Page02</a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Account</a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a href="cadastro.php" class="dropdown-item">Cadastrar</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#myModal"class="dropdown-item"data-toggle="modal">Logout</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
+
 
 
     <div class="formCadastro m-auto">
